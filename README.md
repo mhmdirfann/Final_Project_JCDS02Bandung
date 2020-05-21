@@ -29,5 +29,14 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 • Rating text: text on the basis of rating of rating
 • Votes: Number of ratings casted by people
 ## Data price prediction is processed using regression with the model taken using Gradient Boosting Classifer and data recommendation is processed using Count Vectorizer and Cosine Similarity.
+### Apps
+#### Home Page of Prediction
 ![Screenshot 2020-05-21 23 13 04](https://user-images.githubusercontent.com/60774720/82580750-caafdf00-9bb9-11ea-8e1a-6940a67300fa.png)
+#### Result Prediction of Average Cost for Two ($USD)
+![Screenshot 2020-05-21 23 14 04](https://user-images.githubusercontent.com/60774720/82580944-0a76c680-9bba-11ea-9036-6ccc39b28381.png)
+#### Recommendation Input Page
+![Screenshot 2020-05-21 23 14 38](https://user-images.githubusercontent.com/60774720/82581090-37c37480-9bba-11ea-9d41-3b7ba66a1254.png)
+#### Recommendation Result Page
+![Screenshot 2020-05-21 23 15 14](https://user-images.githubusercontent.com/60774720/82581143-4ca00800-9bba-11ea-9e0f-53bc11ea6215.png)
+
 Hopefully this prediction engine and recommendation engine can help your problem!
