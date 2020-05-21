@@ -6,6 +6,7 @@
 Zomato is a restaurant search site that provides information for eating out, take-out messages, cafes and nightlife for cities in Indonesia, India, Turkey, New Zealand, Philippines, South Africa, Sri Lanka, Qatar, United Arab Emirates, and English. According to the Alexa website, this site ranked 1,926 in the world and 205 in India in October 2013.Dataset was taken from Kaggle (reference:https://www.kaggle.com/shrutimehta/zomato-restaurants-data).
 
 The collected data has been stored in the Comma Separated Value file Zomato.csv. Each restaurant in the dataset is uniquely identified by its Restaurant Id. Every Restaurant contains the following variables:
+
 • Restaurant Id: Unique id of every restaurant across various cities of the world
 • Restaurant Name: Name of the restaurant
 • Country Code: Country in which restaurant is located
