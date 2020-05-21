@@ -29,5 +29,5 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 • Rating text: text on the basis of rating of rating
 • Votes: Number of ratings casted by people
 ## Data price prediction is processed using regression with the model taken using Gradient Boosting Classifer and data recommendation is processed using Count Vectorizer and Cosine Similarity.
-[Home Page](C:\Users\ASUS\Downloads\Screenshot_Zomato)
+![Screenshot 2020-05-21 23 13 04](https://user-images.githubusercontent.com/60774720/82580750-caafdf00-9bb9-11ea-8e1a-6940a67300fa.png)
 Hopefully this prediction engine and recommendation engine can help your problem!
