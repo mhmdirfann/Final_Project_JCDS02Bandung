@@ -7,8 +7,8 @@ Zomato is a restaurant search site that provides information for eating out, tak
 
 The collected data has been stored in the Comma Separated Value file Zomato.csv. Each restaurant in the dataset is uniquely identified by its Restaurant Id. Every Restaurant contains the following variables:
 
-• Restaurant Id: Unique id of every restaurant across various cities of the world
-• Restaurant Name: Name of the restaurant
+- Restaurant Id: Unique id of every restaurant across various cities of the world
+- Restaurant Name: Name of the restaurant
 • Country Code: Country in which restaurant is located
 • City: City in which restaurant is located
 • Address: Address of the restaurant
@@ -38,5 +38,6 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 ![Screenshot 2020-05-21 23 14 38](https://user-images.githubusercontent.com/60774720/82581090-37c37480-9bba-11ea-9d41-3b7ba66a1254.png)
 #### Recommendation Result Page
 ![Screenshot 2020-05-21 23 15 14](https://user-images.githubusercontent.com/60774720/82581143-4ca00800-9bba-11ea-9e0f-53bc11ea6215.png)
-
+#### Data Visualization Page
+![Screenshot 2020-05-21 23 30 34](https://user-images.githubusercontent.com/60774720/82581672-1dd66180-9bbb-11ea-9eea-7347bda1bb0f.png)
 Hopefully this prediction engine and recommendation engine can help your problem!
