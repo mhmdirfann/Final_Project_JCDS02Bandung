@@ -2,7 +2,7 @@
 # Recommendation System (Content-Based) and Linear Regression Prediction of Zomato India
 ## By: Muhammad Irfan
 ### __Dataset__ : Zomato Restaurants Data 
-## About
+## About Zomato Dataset
 Zomato is a restaurant search site that provides information for eating out, take-out messages, cafes and nightlife for cities in Indonesia, India, Turkey, New Zealand, Philippines, South Africa, Sri Lanka, Qatar, United Arab Emirates, and English. According to the Alexa website, this site ranked 1,926 in the world and 205 in India in October 2013.Dataset was taken from Kaggle (reference:https://www.kaggle.com/shrutimehta/zomato-restaurants-data).
 
 The collected data has been stored in the Comma Separated Value file Zomato.csv. Each restaurant in the dataset is uniquely identified by its Restaurant Id. Every Restaurant contains the following variables:
@@ -28,7 +28,18 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 - Rating color: depending upon the average rating color
 - Rating text: text on the basis of rating of rating
 - Votes: Number of ratings casted by people
-## Data price prediction is processed using regression with the model taken using Gradient Boosting Classifer and data recommendation is processed using Count Vectorizer and Cosine Similarity.
+# Data Pre-Processing
+- Fill NaN values (using modes and mean)
+- Drop unnecessary values and column
+- Exploratory Data Analysis (EDA)
+- Convert all currencies to USD for analysis average cost data for two column
+- Create column for location and total cuisine variety
+# Machine Learning Modelling
+#### Predicting Average cost for two (USD)
+Data price prediction is processed using regression with the model taken using Gradient Boosting Regressor
+#### Recommendation System
+Data recommendation is processed using Count Vectorizer and Cosine Similarity 
+
 ### Apps
 #### Home Page of Prediction
 ![Screenshot 2020-05-21 23 13 04](https://user-images.githubusercontent.com/60774720/82580750-caafdf00-9bb9-11ea-8e1a-6940a67300fa.png)
