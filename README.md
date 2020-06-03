@@ -28,7 +28,8 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 - Rating color: depending upon the average rating color
 - Rating text: text on the basis of rating of rating
 - Votes: Number of ratings casted by people
-Sample dataframe:
+#### Sample dataframe
+
 ![Annotation 2020-05-13 021344](https://user-images.githubusercontent.com/60774720/83602845-8818da00-a59d-11ea-8f38-caa5f7327287.png)
 # Data Pre-Processing
 - Fill NaN values (using modes and mean)
@@ -50,7 +51,9 @@ And the best model is GradientBoostingRegressor  because it has the smallest RMS
 After i choose GradientBoostingRegressor model as the modelling for prediction average cost for two (USD), i searched the best parameter from GradientBoostingRegressor with Hyperparamater tuning with GridSearchCV.
 Here my code i used to find best parameters with GridSearchCV:
 ![Annotation 2020-06-03 132711](https://user-images.githubusercontent.com/60774720/83603069-f8276000-a59d-11ea-9e02-931036d7b27f.png)
-And here the result of best parameters:
+And here the result of best parameters
+
+
 ![Annotation 2020-06-03 132555](https://user-images.githubusercontent.com/60774720/83602994-c910ee80-a59d-11ea-8960-437334731254.png)
 
 #### Recommendation System
