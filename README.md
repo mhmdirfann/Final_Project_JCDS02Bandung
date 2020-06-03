@@ -36,7 +36,21 @@ The collected data has been stored in the Comma Separated Value file Zomato.csv.
 - Create column for location and total cuisine variety
 # Machine Learning Modelling
 #### Predicting Average cost for two (USD)
-Data price prediction is processed using regression with the model taken using Gradient Boosting Regressor
+Data price prediction is processed using regression with the model taken using Gradient Boosting Regressor.
+In the initial step, the data has been tested with several models such as:
+- Linear Regression
+- Lasso
+- DecisionTreeRegressor
+- RandomForestRegressor
+- GradientBoostingRegressor
+- Ridge
+And the best model is GradientBoostingRegressor  because it has the smallest RMSE:1.468 and the biggest R2 score:82%
+After i choose GradientBoostingRegressor model as the modelling for prediction average cost for two (USD), i searched the best parameter from GradientBoostingRegressor with Hyperparamater tuning with GridSearchCV.
+Here my code i used to find best parameters with GridSearchCV:
+![Annotation 2020-05-13 021344](https://user-images.githubusercontent.com/60774720/83602845-8818da00-a59d-11ea-8f38-caa5f7327287.png)
+And here the result of best parameters:
+![Annotation 2020-06-03 132555](https://user-images.githubusercontent.com/60774720/83602994-c910ee80-a59d-11ea-8960-437334731254.png)
+
 #### Recommendation System
 Data recommendation is processed using Count Vectorizer and Cosine Similarity 
 
