@@ -58,7 +58,7 @@ In the initial step, the data has been tested with several models such as:
 ![Annotation 2020-06-03 132555](https://user-images.githubusercontent.com/60774720/83602994-c910ee80-a59d-11ea-8960-437334731254.png)
 
 #### Recommendation System
-Data recommendation is processed using Count Vectorizer and Cosine Similarity 
+At the first step, data recommendation is processed using Count Vectorizer to make the list of cuisines countable to find the cosine similarity with another restaurants. The second step is create new columns for more powerful insight for user such as Location (Locality Verbose column + City) and Approximate Distance (Km) to define distance between the main restaurant and the alternative restaurants by using Haversine formula. The final step is combining cosine similarity between location and cuisines so the recommendations are more relevant for user.
 
 ### Apps
 #### Home Page of Prediction
